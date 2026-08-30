@@ -1,10 +1,25 @@
-# Python-generated files
+# macOS
+.DS_Store
+
+# Python
 __pycache__/
-*.py[oc]
+*.py[cod]
+
+# Build artifacts
 build/
 dist/
+*.egg-info/
 wheels/
-*.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# uv
+uv.lock
+
+# environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
